@@ -1,0 +1,1 @@
+This is a repository for all the studying i do , these are all the folders for courses i study
