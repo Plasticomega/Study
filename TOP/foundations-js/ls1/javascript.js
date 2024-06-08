@@ -36,6 +36,9 @@ myNumber.toString(8);
 p =myNumber.toString(2);
 alert(p);*/
 
-let myNumber = "74";
+/*let myNumber = "74";
 myNumber += 3;
-alert(myNumber)
+alert(myNumber)*/
+
+x = 1;
+alert(x);
