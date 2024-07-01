@@ -1,4 +1,4 @@
-const string = "The revolution will not be televised.";
+/*const string = "The revolution will not be televised.";
 console.log(string);
 
 const single = 'Single quotes';
@@ -29,4 +29,10 @@ const maggi = `
                 Step 4:- Open swiggy and login with your number and 
                 correct address
                 Step 5:- Order maggi , And Enjoy \"PUSSIES!!!!!!\"`
-console.log(maggi)
+console.log(maggi)*/
+x = 10
+if (hour>9){
+    console.log("balls are true");
+}else{
+    console.log("balls are false");}
+
