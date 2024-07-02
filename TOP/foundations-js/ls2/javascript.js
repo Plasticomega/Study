@@ -29,10 +29,17 @@ const maggi = `
                 Step 4:- Open swiggy and login with your number and 
                 correct address
                 Step 5:- Order maggi , And Enjoy \"PUSSIES!!!!!!\"`
-console.log(maggi)*/
-x = 10
+console.log(maggi)
 if (hour>9){
     console.log("balls are true");
 }else{
     console.log("balls are false");}
+*/
+
+x = -3
+if(x % 2 == 0){
+    alert(`The number ${x} is even`)
+}else{
+    alert(`The number ${x} is Odd`)
+}
 
