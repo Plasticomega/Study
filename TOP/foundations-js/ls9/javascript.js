@@ -13,7 +13,7 @@ console.log(div)
 
 console.log(document.querySelector(".id"))
 
-div.innerHTML = "<span>Hellow world</span>"*/
+div.innerHTML = "<span>Hellow world</span>"
 
 
 const hello = document.querySelector("#container")
@@ -71,10 +71,23 @@ function changecolor(e){
     hoveroverme.textContent = "you hoverd"
     e.target.style.color = "blue"
 }
+*/
 
 
+//read text input when button add item is clicked
 
 
+let womp = document.querySelector('.button')
+womp.addEventListener("click", addtolist)
+
+function addtolist(){
+  let liststart = document.querySelector('.listofitem')
+  let text = document.getElementById('item')
+  let inputtext = text.value 
+  let listitem = document.createElement('li')
+  listitem.textContent = inputtext;
+  liststart.appendChild(listitem)
+}
 
 
 

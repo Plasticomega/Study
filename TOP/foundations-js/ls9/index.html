@@ -1,20 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Functions</title>
-    <link href="styles.css" rel="stylesheet">
-</head>
-<body>
-  <h1>Hello</h1>
-  <div class="boogie"></div>
-  <div id="container"></div>
-  <button class="boton">DABA MALA</button>
-  <div class="hoverchangecolor"></div>
+    <title>Shopping list example</title>
+    <style>
+      li {
+        margin-bottom: 10px;
+      }
 
+      li button {
+        font-size: 12px;
+        margin-left: 20px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
 
+    <h1>My shopping list</h1>
 
-  <script src="javascript.js"></script>
-</body>
+    <div>
+      <label for="item">Enter a new item:</label>
+      <input type="text" name="item" id="item">
+      <button class="button">Add item</button>
+    </div>
+
+    <ul class="listofitem">
+
+    </ul>
+
+    <script src="javascript.js"></script>
+  </body>
 </html>
