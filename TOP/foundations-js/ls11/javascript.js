@@ -1,4 +1,4 @@
 let boong = document.querySelector('.boong');
 
-boong.addEventListener('mouseover',()=>{boong.style.color = 'red'})
-boong.addEventListener('mouseout', ()=> {boong.style.color = 'white'})
+boong.addEventListener('keydown',()=>{boong.style.color = 'red'})
+boong.addEventListener('keyup', ()=> {boong.style.color = 'white'})
