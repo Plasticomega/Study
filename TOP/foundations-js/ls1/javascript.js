@@ -41,7 +41,7 @@ myNumber += 3;
 alert(myNumber)*/
 
 /*x = 1;
-alert(x);*/
+alert(x);
 
 console.log(1+1+1+1+1+1);
 let x = (4+7+8)/ 77;
@@ -49,3 +49,4 @@ console.log(x);
 
 let a = 10;
 console.log(a);
+*/

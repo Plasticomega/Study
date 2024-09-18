@@ -1,10 +1,12 @@
-.hello{
-    color: white;
-    background-color: red;
-    width: 200px;
-    height: 300px;
-    margin: auto;
-    text-align: center;
-    margin-top: 150px;
-    line-height: auto;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapercave.com/wp/nsFJoNv.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    overflow-x: hidden;
+    background-color: black;
 }
