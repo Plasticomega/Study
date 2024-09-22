@@ -101,3 +101,41 @@
 // let strings = ["Hare", "Krishna", "Hare", "Krishna",
 //   "Krishna", "Krishna", "Hare", "Hare", ":-O"
 // ];
+
+
+// function min(a,b){
+//   let c = a - b
+//   if(c>0){
+//     return b
+//   }else if(c<0){
+//     return a
+//   }else{
+//     return a
+//   }
+// }
+
+// console.log(min(2, 5))
+// console.log(min(3, -1))
+// console.log(min(1, 1))
+
+// function pow(x,n){
+//   return x ** n
+// }
+
+// let number = prompt('What is x')
+// let power =  prompt('What is the power')
+// alert(pow(number,power))
+
+removeFromArray = function(array, ...Args) {
+    for (let arg of Args) {
+        let index = array.indexOf(arg);
+        if (index !== -1) {  // Check if the element exists in the array
+            array.splice(index, 1);  // Remove the element
+        }
+    }
+    return array;
+}
+
+let array = [1, 3, 4, 5];
+
+console.log(removeFromArray(array, 1, 3));  // Output: [4, 5]
