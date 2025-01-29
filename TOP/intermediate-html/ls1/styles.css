@@ -33,3 +33,13 @@ tr:nth-child(odd) td {
 caption {
   padding: 10px;
 }
+
+img{
+  height: 300px;
+  width: 300px;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
