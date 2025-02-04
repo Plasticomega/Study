@@ -1,3 +1,8 @@
 body{
     background-color: black;
 }
+
+.balls{
+  color:white;
+  text-shadow: red 1px 0px 1px;
+}
