@@ -1,17 +1,5 @@
 *{
-    background-color: #c0ffee;
+    background-color: rgba(216, 192, 0, 0.99);
     color: blueviolet;
 }
 
-.increment,.decrease{
-    width: 100px;
-    border-radius: 10px;
-    font-weight: bolder;
-    text-shadow: black 100px;
-}
-
-.count{
-    width: 100px;
-    margin-left: 50px;
-    font-size: 200px;
-}
