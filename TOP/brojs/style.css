@@ -1,5 +1,9 @@
 *{
     background-color: rgba(216, 192, 0, 0.99);
     color: blueviolet;
+    margin: 0;
 }
 
+#myBox{
+    position: relative;
+}
