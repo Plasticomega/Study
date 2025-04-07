@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Getting Started with Three.js</title>
-    <style>
-      body {
-        margin: 0;
-      }
-    </style>
-    <script type="importmap">
-                        {
-                                "imports": {
-                                        "three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
-          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
-        }
-                        }
-                </script>
-  </head>
-  <body>
-    <script type="module" src="script.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D File Viewer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/STLLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/OBJLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Drag and Drop Uploader -->
+    <div id="uploader">
+        <h1>Drag & Drop Your 3D File</h1>
+        <div id="drop-area">Drop here to preview</div>
+        <input type="file" id="file-input" hidden>
+    </div>
+
+    <!-- 3D Viewer (Hidden Initially) -->
+    <div id="viewer" style="display: none;">
+        <button id="back-btn">Back to Upload</button>
+    </div>
+
+    <script type="module" src="./scripts/main.js"></script> 
+</body>
 </html>
+
+
+
+
+
+
 
