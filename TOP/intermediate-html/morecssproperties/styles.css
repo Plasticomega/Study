@@ -1,0 +1,9 @@
+body{
+    background-color: hsl(0, 11%, 9%);
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    color: hsl(60, 100%, 30%);
+}
