@@ -7,6 +7,42 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- To select child you can use > for example main>div>div 
+     + is the sibbling combinator you can use it when you want to slect the class that is 
+     adjecent , for example if its <div class="1"> and <div class="2"> you can do .1 + div and it will slect all the divs inside 2
+     if we want to select all of the siblings following an element and not just the first one, we can use the general sibling combinator
+     which is ~ 
+     
+    you can add psuedo classes to keep css clean
+    examples of psuedo classes : first-child
+    last-child
+    only-child
+    invalid
+    User action psudeo classes are :hover , :focus
+    
+    Pseudo elements act in a similar way but in their case its as if you added a whole new html 
+
+    ::first line - only selects the first line of paragraph
+    -->
+<article>
+  <p>
+    Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
+    daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+  </p>
+
+  <p>
+    Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+    tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.
+    Dandelion cucumber earthnut pea peanut soko zucchini.
+  </p>
+</article>
+
+<p><a href="">Hover over me</a></p>
+
+<p class="box">Content in the box in my HTML page.</p>
+
+
+
     
     <script src="script.js"></script>
 </body>
