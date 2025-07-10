@@ -23,8 +23,10 @@
     Pseudo elements act in a similar way but in their case its as if you added a whole new html 
 
     ::first line - only selects the first line of paragraph
+
+    Next is attribute selectors this can help you select attributes read more on mdn or TOP
     -->
-<article>
+<!-- <article>
   <p>
     Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion
     daikon amaranth tatsoi tomatillo melon azuki bean garlic.
@@ -41,6 +43,29 @@
 
 <p class="box">Content in the box in my HTML page.</p>
 
+<style>
+  .emojify::before {
+    content: '😎 😄 🤓';
+}
+
+  .emojify::after {
+    content: '🤓 😄 😎';
+}
+</style>
+
+<body>
+  <div> Let's <span class="emojify">emojify</span>this span!</div>
+
+  for attribute selectors cheatsheet and other things go to : https://learn.shayhowe.com/advanced-html-css/complex-selectors/
+
+  
+</body> -->
+
+<div class="jam">What are you doing over here jamal are you out of your dmalkdsakdmalkmda <a href="file:///home/plastic/gitfiles/Study/TOP/intermediate-html/advanced-selectors/index.html#lorem">lorem</a></div>
+
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam corporis quae, tempora modi debitis architecto nihil non, perspiciatis at eveniet sequi. Veritatis provident eius minus cumque tempore cum explicabo repudiandae!</div>
+
+<div id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur optio laudantium dolore deleniti, cumque quos ipsam rem neque error velit eveniet. Delectus quos commodi quasi eligendi, ut voluptates fugiat incidunt.</div>
 
 
     

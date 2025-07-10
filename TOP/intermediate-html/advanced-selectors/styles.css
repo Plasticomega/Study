@@ -27,3 +27,20 @@ a:hover {
   background-color: rebeccapurple;
   border: 1px solid black;
 }
+
+article::selection{
+  background-color: bisque;
+  color:red;
+}
+
+.jam::spelling-error{
+  color: red;
+}
+
+.jam{
+  margin-bottom: 500px;
+}
+
+#lorem{
+  margin-top: 1000px;
+}
