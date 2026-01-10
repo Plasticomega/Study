@@ -23,7 +23,7 @@ function getHumanChoice(){
         alert("invalid choice")
     }
     else{
-        return choiceLow
+        return choice
     }
     
 }
