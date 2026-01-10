@@ -7,7 +7,9 @@
 	display: grid;
 	text-align: center;
 	grid-template-columns: 1fr 4fr;
+	grid-template-rows: auto 1fr auto;
 	gap: 4px;
+	min-height: 100vh;
 }
 
 .container div {
