@@ -11,7 +11,7 @@ const add10 = Add(10)
 console.log(add10(50))
 
 
-const array = ["mango","banana"]
+const array = ["mango","banana","apple"]
 
 const [ firstEle, zerothEle] = array;
 
