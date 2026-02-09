@@ -27,5 +27,6 @@ console.log(firstEle,zerothEle)
  -DRY code DONT REPEAT YOURSELF
  - efficient DOM usage
  (very few selections)
- -no memory leaks 
+ -no memory leaks
+ -factory func
 */
