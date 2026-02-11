@@ -1,4 +1,4 @@
-// const variable = 'property';
+// const variable = 'property'; lets go
 
 // function Player(name, marker) {
 //   if (!new.target) {
